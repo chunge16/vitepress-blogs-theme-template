@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@chunge16/vitepress-blogs-theme':
-    specifier: ^0.1.18
-    version: 0.1.18(vitepress@1.0.0-rc.31)
+    specifier: ^0.1.20
+    version: 0.1.20(vitepress@1.0.0-rc.31)
   eslint:
     specifier: ^8.48.0
     version: 8.55.0
@@ -227,8 +227,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@chunge16/vitepress-blogs-theme@0.1.18(vitepress@1.0.0-rc.31):
-    resolution: {integrity: sha512-OWwKwj+H85Dmtprr79ZK+VR3jmgSfsgoErfX1o06wj/95Jv40fIgsPTr7zyyYljijUmBUWlJBGJCl1ukoCu/OQ==}
+  /@chunge16/vitepress-blogs-theme@0.1.20(vitepress@1.0.0-rc.31):
+    resolution: {integrity: sha512-isEjgiJrz+AZsHt5kaqnbUw7y2aXooDQi2xErrY2A4FWcpSBPl0lttS8jTn8oR+CJ1bc9J2657ulRYGBw7uKuQ==}
     peerDependencies:
       vitepress: ^1.0.0-rc.31
     dependencies:
