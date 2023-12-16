@@ -78,6 +78,18 @@ export default defineConfig({
       dateConfig: {
         format: 'yyyy/MM/dd',
         locale: enUS
+      },
+      giscus: {
+        repo: 'chunge16/vitepress-blogs-theme-template',
+        repoId: 'R_kgDOKz3GKg',
+        category: 'General',
+        categoryId: 'DIC_kwDOKz3GKs4CbySw',
+        mapping: 'pathname', // default: `pathname`
+        inputPosition: 'top', // default: `top`
+        lang: 'zh-CN', // default: `zh-CN`
+        lightTheme: 'light', // 默认: `light`
+        darkTheme: 'transparent_dark', // 默认: `transparent_dark`
+        defaultEnable: true, // 默认： true
       }
     },
 
@@ -93,4 +105,4 @@ export default defineConfig({
   async transformPageData(pageData, ctx) {
     await processData(pageData, ctx);
   },
-})
+});
