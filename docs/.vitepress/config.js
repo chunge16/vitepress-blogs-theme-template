@@ -4,6 +4,7 @@ import { enUS } from "date-fns/locale";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/vitepress-blogs-theme-template/",  // https://vitepress.dev/guide/deploy#setting-a-public-base-path
   cleanUrls: true,
   title: "My Awesome Project",
   description: "A VitePress Site",
