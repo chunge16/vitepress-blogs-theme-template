@@ -1,8 +1,12 @@
 # vitepress-blogs-theme-template
 
+[EN](README.md) | 中文
+
 一个空的 `VitePress` 博客，主题已经设置好了
 
-[EN](README.md) | 中文
+[在线预览](https://chunge16.github.io/vitepress-blogs-theme-template/)
+
+
 
 ## 这是啥
 
