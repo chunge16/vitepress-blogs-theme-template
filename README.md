@@ -1,9 +1,14 @@
 # vitepress-blogs-theme-template
 
+EN | [中文](README_zh.md)
 
 An empty `VitePress` blog with the theme all set up.
 
-EN | [中文](README_zh.md)
+[Online preview](https://chunge16.github.io/vitepress-blogs-theme-template/)
+
+
+
+
 
 ## What
 

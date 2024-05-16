@@ -8,6 +8,13 @@
     "lint:eslint": "eslint . --ext .ts,.js,.vue --fix",
     "prepare": "husky install"
   },
+  "author": "chunge16 (https://github.com/chunge16)",
+  "license": "MIT",
+  "homepage": "https://chunge16.github.io/vitepress-blogs-theme-template/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chunge16/vitepress-blogs-theme-template.git"
+  },
   "devDependencies": {
     "@chunge16/vitepress-blogs-theme": "^0.2.4",
     "eslint": "^8.48.0",

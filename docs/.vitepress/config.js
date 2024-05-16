@@ -1,8 +1,10 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 import {processData} from "@chunge16/vitepress-blogs-theme/config";
+import { enUS } from "date-fns/locale";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/vitepress-blogs-theme-template/",  // https://vitepress.dev/guide/deploy#setting-a-public-base-path
   cleanUrls: true,
   title: "My Awesome Project",
   description: "A VitePress Site",
@@ -74,11 +76,15 @@ export default defineConfig({
         blog: 'i-[carbon/blog]',
         comment: 'i-[carbon/add-comment]',
       },
+      dateConfig: {
+        format: 'yyyy/MM/dd',
+        locale: enUS
+      },
       giscus: {
-        repo: 'chunge16/vitepress-blogs-theme',
-        repoId: 'R_kgDOKzaaEg',
+        repo: 'chunge16/vitepress-blogs-theme-template',
+        repoId: 'R_kgDOKz3GKg',
         category: 'General',
-        categoryId: 'DIC_kwDOKzaaEs4CbyYB',
+        categoryId: 'DIC_kwDOKz3GKs4CbySw',
         mapping: 'pathname', // default: `pathname`
         inputPosition: 'top', // default: `top`
         lang: 'zh-CN', // default: `zh-CN`
