@@ -9,12 +9,12 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@chunge16/vitepress-blogs-theme": "^0.1.18",
+    "@chunge16/vitepress-blogs-theme": "^0.2.4",
     "eslint": "^8.48.0",
     "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
-    "vitepress": "1.0.0-rc.31",
+    "vitepress": "^1.1.4",
     "vue": "^3.3.4",
     "vue-eslint-parser": "^9.3.1"
   },
