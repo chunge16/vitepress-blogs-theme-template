@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress';
 import {processData} from "@chunge16/vitepress-blogs-theme/config";
-import { enUS } from "date-fns/locale";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -75,10 +74,6 @@ export default defineConfig({
         react: 'i-[logos/react]',
         blog: 'i-[carbon/blog]',
         comment: 'i-[carbon/add-comment]',
-      },
-      dateConfig: {
-        format: 'yyyy/MM/dd',
-        locale: enUS
       },
       giscus: {
         repo: 'chunge16/vitepress-blogs-theme-template',
