@@ -21,7 +21,7 @@
     "eslint-plugin-vue": "^9.17.0",
     "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
-    "vitepress": "^1.1.4",
+    "vitepress": "^1.4.1",
     "vue": "^3.3.4",
     "vue-eslint-parser": "^9.3.1"
   },
